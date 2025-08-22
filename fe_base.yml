@@ -1,0 +1,21 @@
+name: fe_base
+channels:
+  - conda-forge
+dependencies:
+# Python
+  - python=3.12
+# Jupyter
+  - jupyterlab
+# Core
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+# Plotting
+  - matplotlib
+  - seaborn
+# Analysis
+  - arch
+  - sympy
+# Data
+  - yfinance
