@@ -19,3 +19,7 @@ dependencies:
   - sympy
 # Data
   - yfinance
+# pip
+  - pip
+  - pip:
+    - arch
