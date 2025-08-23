@@ -2,22 +2,20 @@ name: fe_base
 channels:
   - conda-forge
 dependencies:
-# Python
+# Python & Jupyter
   - python=3.12
-# Jupyter
   - jupyterlab
-# Core
+  - ipykernel
+# Numerics
   - numpy
   - pandas
   - scipy
   - statsmodels
+  - sympy
 # Plotting
   - matplotlib
   - seaborn
-# Analysis
-  - arch
-  - sympy
-# Data
+# Data Sets
   - yfinance
 # pip
   - pip
