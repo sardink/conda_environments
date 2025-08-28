@@ -4,8 +4,6 @@ channels:
 dependencies:
 # Python & Jupyter
   - python=3.12
-  - jupyterlab
-  - ipykernel
 # Numerics
   - numpy
   - pandas
