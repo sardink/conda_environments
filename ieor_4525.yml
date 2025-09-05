@@ -1,0 +1,13 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - conda==25.3.1
+  - jupyterlab
+  - jupyterlab-lsp
+  - mamba==2.1.1
+  - pip
+  - python=3.12
+  - python-lsp-server
+
+prefix: "/home/sooyong/miniforge3"
