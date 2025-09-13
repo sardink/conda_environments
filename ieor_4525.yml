@@ -1,13 +1,13 @@
-name: base
+name: ieor_4525
 channels:
   - conda-forge
 dependencies:
-  - conda==25.3.1
-  - jupyterlab
-  - jupyterlab-lsp
-  - mamba==2.1.1
-  - pip
-  - python=3.12
-  - python-lsp-server
-
-prefix: "/home/sooyong/miniforge3"
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - xgboost
+  - statsmodels
+  - matplotlib
+  - pytorch
+  - ipykernel
